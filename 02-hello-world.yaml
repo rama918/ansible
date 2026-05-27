@@ -5,3 +5,7 @@
     - name: print hello world
       ansible.builtin.debug:
         msg: "Hello World"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 2299619583dae1637577eea8465957a9aee5151f

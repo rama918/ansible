@@ -11,4 +11,8 @@
       ansible.builtin.service:
         name: nginx
         state: started
+<<<<<<< HEAD
         enabled: yes
+=======
+        enabled: yes
+>>>>>>> 2299619583dae1637577eea8465957a9aee5151f

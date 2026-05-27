@@ -11,9 +11,17 @@
         COURSE: Ansible 
       ansible.builtin.debug:
       #vars reference should be surrounded by ""
+<<<<<<< HEAD
         msg: "HELLO {{COURSE}},  CourseDuration: {{DURATION}}, Trainer is {{TRAINER}}"
+=======
+        msg: "HELLO {{COURSE}},  CourseDuration: {{DURATION}}, Trainer is: {{TRAINER}}"
+>>>>>>> 2299619583dae1637577eea8465957a9aee5151f
 
     - name: print course information
       ansible.builtin.debug:
           #vars reference should be surrounded by ""
+<<<<<<< HEAD
         msg: "HELLO {{COURSE}},  CourseDuration: {{DURATION}}, Trainer is {{TRAINER}}"
+=======
+        msg: "HELLO {{COURSE}},  CourseDuration: {{DURATION}}, Trainer is: {{TRAINER}}"
+>>>>>>> 2299619583dae1637577eea8465957a9aee5151f

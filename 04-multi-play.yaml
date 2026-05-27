@@ -20,4 +20,8 @@
 
     - name: hello from play2 and task2
       ansible.builtin.debug:
+<<<<<<< HEAD
         msg: "hello from play2 and task2"            
+=======
+        msg: "hello from play2 and task2"            
+>>>>>>> 2299619583dae1637577eea8465957a9aee5151f
