@@ -1,5 +1,5 @@
-- name: play levael variables
-  hosts: local
+- name: play level variables
+  hosts: localhost
   connection: local
   vars_files:
   - course.yaml
