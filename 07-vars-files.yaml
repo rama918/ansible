@@ -1,0 +1,9 @@
+- name: play levael variables
+  hosts: local
+  connection: local
+  vars_files:
+  - course.yaml
+  tasks:
+    - name: print course information
+      ansible.builtin.debug:
+        msg: "Hello I am learning {{COURSE}},  Course Duration: {{DURATION}}, Trainer is: {{TRAINER}}"
